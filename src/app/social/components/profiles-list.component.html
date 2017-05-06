@@ -1,0 +1,16 @@
+<div class="page-wrap">
+<md-list>
+  <h3 md-subheader>Folders</h3>
+  <app-profile-item [item]="item" *ngFor="let item of items">
+  </app-profile-item>
+  <md-divider></md-divider>
+  <h3 md-subheader>Notes</h3>
+</md-list>
+</div>
+<div class="site-footer">
+<a [routerLink]="['/addUser']">
+  <button md-fab class="add-button" color="primary">
+    <i class="material-icons md-48">add_circle</i>
+    </button>
+</a>
+</div>

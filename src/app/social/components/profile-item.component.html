@@ -1,0 +1,23 @@
+<md-card class="example-card" (click)="redirectTo(item?.id)">
+  <md-card-header>
+    <div md-card-avatar class="example-header-image"></div>
+    <md-card-title>{{item?.fullName}}</md-card-title>
+    <md-card-subtitle>{{item?.id}}</md-card-subtitle>
+  </md-card-header>
+  <img src={{item?.pic}}>
+  <md-card-content>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra convallis rhoncus. Morbi euismod ipsum non ante
+      mollis, eget porta sapien semper. Proin consectetur mauris ac libero dictum, ut mattis metus tincidunt. Praesent sed
+      sapien rhoncus sapien convallis pretium eget ac lorem. Phasellus bibendum purus a lectus fringilla mattis. Maecenas
+      pharetra luctus tortor, id porttitor nisi gravida in. Nulla rhoncus pretium varius. Maecenas lobortis justo fermentum
+      velit tristique aliquet vel vitae sem. Donec condimentum eget sapien in accumsan. Aliquam ultrices mi eget efficitur
+      efficitur. Sed quis gravida ante. Nunc nibh orci, tristique vel fringilla vel, pulvinar sed elit.
+    </p>
+  </md-card-content>
+  <md-card-actions>
+    <button md-icon-button><i class="material-icons">thumb_up</i></button>
+    <button md-icon-button><i class="material-icons">share</i></button>
+  </md-card-actions>
+</md-card>
+<br>
